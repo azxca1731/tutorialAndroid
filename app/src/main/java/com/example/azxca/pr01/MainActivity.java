@@ -30,5 +30,14 @@ public class MainActivity extends AppCompatActivity {
     private void init(){
         DataForm a=new DataForm("hello",1);
         list.add(a);
+
+        a=new DataForm("myname",2);
+        list.add(a);
+
+        a=new DataForm("is",3);
+        list.add(a);
+
+        a=new DataForm("android",4);
+        list.add(a);
     }
 }
