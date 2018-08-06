@@ -9,6 +9,15 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
+    //1.DataForm 정의
+    //2.item 정의
+    //3.어댑터 바꾸기
+    //4.init하기
+
+    //4-1. 디비에서 가져오기
+    //4-2. restAPI
+    //4-3. 소켓
+
     RecyclerView rcv;
     RcvAdapter rcvAdapter;
     ArrayList<DataForm> list= new ArrayList<>();
@@ -28,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void init(){
+
         DataForm a=new DataForm("hello",1);
         list.add(a);
 

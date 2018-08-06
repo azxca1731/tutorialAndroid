@@ -11,6 +11,10 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
+//Context
+//LayoutInflator
+
+
 public class RcvAdapter extends RecyclerView.Adapter<RcvAdapter.ViewHolder> {
 
     private Context mContext;
@@ -68,7 +72,10 @@ public class RcvAdapter extends RecyclerView.Adapter<RcvAdapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(final ViewHolder holder, final int position) {
-
+        //Item XML에 원하는 값을 바인딩 한다.
+        //position은 지금 바인딩하는 친구
+        //밑에 예시 참조
+        holder.tvName.setText(dataList.get(position).getName());
     }
 
     private void removeItem(int position) {

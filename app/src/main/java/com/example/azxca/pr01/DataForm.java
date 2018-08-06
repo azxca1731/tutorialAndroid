@@ -1,6 +1,7 @@
 package com.example.azxca.pr01;
 
 public class DataForm {
+    //원하는 데이터의 형태
     private String name;
     private int imageNumber;
 
